@@ -405,8 +405,7 @@ This adds a particular job to the build matrix which has already been populated.
 This is useful if you want to only test the latest version of a dependency together with the latest version of the runtime.
 
 You can use this method to create a build matrix containing only specific combinations.
-For example, the following creates a build matrix with 3 jobs, which runs a test suite for each version
-of Python:
+For example, the following creates a build matrix with 3 jobs, which runs a test suite for each version of Python:
 
 ```yaml
 language: python
